@@ -1,0 +1,854 @@
+{
+  "575": {
+    "last_name": "Abbasi",
+    "first_name": "Fateme",
+    "id": 3438,
+    "email": "fateme.abbasi@cs.uni.wroc.pl"
+  },
+  "576": {
+    "last_name": "Abbasi Shahkooh",
+    "first_name": "Neda",
+    "id": 3440,
+    "email": "neda.abbasi.shahkooh@cs.uni.wroc.pl"
+  },
+  "558": {
+    "last_name": "Adamczyk",
+    "first_name": "Marek",
+    "id": 3402,
+    "email": "marek.adamczyk@cs.uni.wroc.pl"
+  },
+  "96": {
+    "last_name": "Bacławski",
+    "first_name": "Krystian",
+    "id": 97,
+    "email": "cahirwpz@cs.uni.wroc.pl"
+  },
+  "625": {
+    "last_name": "Balcer",
+    "first_name": "Klaudia",
+    "id": 3057,
+    "email": "klaudia.balcer@cs.uni.wroc.pl"
+  },
+  "608": {
+    "last_name": "Banerjee",
+    "first_name": "Sandip",
+    "id": 3788,
+    "email": "sandip.banerjee@cs.uni.wroc.pl"
+  },
+  "619": {
+    "last_name": "Basiak",
+    "first_name": "Mateusz",
+    "id": 2643,
+    "email": "mba@cs.uni.wroc.pl"
+  },
+  "540": {
+    "last_name": "Bednarczyk",
+    "first_name": "Bartosz",
+    "id": 2106,
+    "email": "bartosz.bednarczyk@cs.uni.wroc.pl"
+  },
+  "620": {
+    "last_name": "Benedyk",
+    "first_name": "Mateusz",
+    "id": 3848,
+    "email": "mateusz.benedyk@uwr.edu.pl"
+  },
+  "11": {
+    "last_name": "Bieńkowski",
+    "first_name": "Marcin",
+    "id": 12,
+    "email": "marcin.bienkowski@cs.uni.wroc.pl"
+  },
+  "73": {
+    "last_name": "Biernacka",
+    "first_name": "Małgorzata",
+    "id": 74,
+    "email": "mabi@cs.uni.wroc.pl"
+  },
+  "70": {
+    "last_name": "Biernacki",
+    "first_name": "Dariusz",
+    "id": 71,
+    "email": "dabi@cs.uni.wroc.pl"
+  },
+  "584": {
+    "last_name": "Böhm",
+    "first_name": "Martin",
+    "id": 3463,
+    "email": "boehm@cs.uni.wroc.pl"
+  },
+  "606": {
+    "last_name": "Bolechów",
+    "first_name": "Bartosz",
+    "id": 3786,
+    "email": "bartosz.bolechow@uwr.edu.pl"
+  },
+  "488": {
+    "last_name": "Buraczewski",
+    "first_name": "Dariusz",
+    "id": 2230,
+    "email": "dariusz.buraczewski@gmail.com"
+  },
+  "562": {
+    "last_name": "Buszka",
+    "first_name": "Maciej",
+    "id": 2397,
+    "email": "maciej.buszka@cs.uni.wroc.pl"
+  },
+  "102": {
+    "last_name": "Byrka",
+    "first_name": "Jarosław",
+    "id": 103,
+    "email": "jby@ii.uni.wroc.pl"
+  },
+  "618": {
+    "last_name": "Cekiera",
+    "first_name": "Kamil",
+    "id": 3847,
+    "email": "kamil.cekiera@uwr.edu.pl"
+  },
+  "54": {
+    "last_name": "Charatonik",
+    "first_name": "Witold",
+    "id": 55,
+    "email": "Witold.Charatonik@cs.uni.wroc.pl"
+  },
+  "456": {
+    "last_name": "Chorowski",
+    "first_name": "Jan",
+    "id": 1906,
+    "email": "jan.chorowski@cs.uni.wroc.pl"
+  },
+  "511": {
+    "last_name": "Chudy",
+    "first_name": "Filip",
+    "id": 2433,
+    "email": "fch@cs.uni.wroc.pl"
+  },
+  "523": {
+    "last_name": "Cieślak",
+    "first_name": "Rafał",
+    "id": 1847,
+    "email": "rafalcieslak256@gmail.com"
+  },
+  "565": {
+    "last_name": "Czajkowski",
+    "first_name": "Jan",
+    "id": 3405,
+    "email": ""
+  },
+  "617": {
+    "last_name": "Danielski",
+    "first_name": "Daniel",
+    "id": 2061,
+    "email": "daniel.danielski2@uwr.edu.pl"
+  },
+  "69": {
+    "last_name": "Dębicki",
+    "first_name": "Krzysztof",
+    "id": 70,
+    "email": "Krzysztof.Debicki@math.uni.wroc.pl"
+  },
+  "536": {
+    "last_name": "Drab",
+    "first_name": "Tomasz",
+    "id": 2005,
+    "email": "tomasz.drab@cs.uni.wroc.pl"
+  },
+  "521": {
+    "last_name": "Dudek",
+    "first_name": "Bartłomiej",
+    "id": 2641,
+    "email": "bardek@cs.uni.wroc.pl"
+  },
+  "508": {
+    "last_name": "Dudycz",
+    "first_name": "Szymon",
+    "id": 2430,
+    "email": "szymon.dudycz@cs.uni.wroc.pl"
+  },
+  "585": {
+    "last_name": "Dziubański",
+    "first_name": "Jacek",
+    "id": 3465,
+    "email": "jdziuban@math.uni.wroc.pl"
+  },
+  "539": {
+    "last_name": "Ferens",
+    "first_name": "Robert",
+    "id": 2056,
+    "email": "rfe@cs.uni.wroc.pl"
+  },
+  "591": {
+    "last_name": "Florczuk",
+    "first_name": "Paweł",
+    "id": 3481,
+    "email": "pawel.florczuk@fibertide.com"
+  },
+  "560": {
+    "last_name": "Gańczorz",
+    "first_name": "Adam",
+    "id": 2400,
+    "email": "iloscnd@gmail.com"
+  },
+  "485": {
+    "last_name": "Garncarek",
+    "first_name": "Paweł",
+    "id": 2220,
+    "email": "pawel.garncarek2@uwr.edu.pl"
+  },
+  "71": {
+    "last_name": "Gawrychowski",
+    "first_name": "Paweł",
+    "id": 72,
+    "email": "gawry1@gmail.com"
+  },
+  "623": {
+    "last_name": "Gogolok",
+    "first_name": "Jakub",
+    "id": 3850,
+    "email": "318830@uwr.edu.pl"
+  },
+  "611": {
+    "last_name": "Górski",
+    "first_name": "Daniel",
+    "id": 3832,
+    "email": "hskzylo@gmail.com"
+  },
+  "13": {
+    "last_name": "Grocholski",
+    "first_name": "Leszek",
+    "id": 14,
+    "email": "leszek.grocholski@cs.uni.wroc.pl"
+  },
+  "613": {
+    "last_name": "Gugała",
+    "first_name": "Karol",
+    "id": 3837,
+    "email": "kgugala@antmicro.com"
+  },
+  "593": {
+    "last_name": "Hajiyev",
+    "first_name": "Shamkhal",
+    "id": 3599,
+    "email": "334832@uwr.edu.pl"
+  },
+  "586": {
+    "last_name": "Hejna",
+    "first_name": "Agnieszka",
+    "id": 3464,
+    "email": "agnieszka.hejna@math.uni.wroc.pl"
+  },
+  "624": {
+    "last_name": "Jachimek",
+    "first_name": "Sebastian",
+    "id": 3851,
+    "email": "291925@uwr.edu.pl"
+  },
+  "538": {
+    "last_name": "Janczewski",
+    "first_name": "Wojciech",
+    "id": 2040,
+    "email": "wojciech.janczewski@cs.uni.wroc.pl"
+  },
+  "15": {
+    "last_name": "Jeż",
+    "first_name": "Artur",
+    "id": 16,
+    "email": "artur.jez@uwr.edu.pl"
+  },
+  "68": {
+    "last_name": "Jeż",
+    "first_name": "Łukasz",
+    "id": 69,
+    "email": "lje@cs.uni.wroc.pl"
+  },
+  "555": {
+    "last_name": "Jędrzejkowska",
+    "first_name": "Joanna",
+    "id": 1365,
+    "email": "joanna.jedrzejkowska@uwr.edu.pl"
+  },
+  "16": {
+    "last_name": "Jurdziński",
+    "first_name": "Tomasz",
+    "id": 17,
+    "email": "tju@cs.uni.wroc.pl"
+  },
+  "551": {
+    "last_name": "Jurkiewicz",
+    "first_name": "Małgorzata",
+    "id": 1438,
+    "email": "gosia.jurkiewicz@gmail.com"
+  },
+  "19": {
+    "last_name": "Karczewski",
+    "first_name": "Witold",
+    "id": 20,
+    "email": "Witold.Karczewski@cs.uni.wroc.pl"
+  },
+  "463": {
+    "last_name": "Karpiński",
+    "first_name": "Michał",
+    "id": 1914,
+    "email": "karp@cs.uni.wroc.pl"
+  },
+  "22": {
+    "last_name": "Kieroński",
+    "first_name": "Emanuel",
+    "id": 23,
+    "email": "Emanuel.Kieronski@ii.uni.wroc.pl"
+  },
+  "569": {
+    "last_name": "Koltsov",
+    "first_name": "Maksim",
+    "id": 3432,
+    "email": "326172@uwr.edu.pl"
+  },
+  "598": {
+    "last_name": "Korzeniowski",
+    "first_name": "Mirosław",
+    "id": 3631,
+    "email": "mirek.korzeniowski@tooploox.com"
+  },
+  "24": {
+    "last_name": "Kościelski",
+    "first_name": "Antoni",
+    "id": 25,
+    "email": "kosciels@cs.uni.wroc.pl"
+  },
+  "542": {
+    "last_name": "Kowalczykiewicz",
+    "first_name": "Michał",
+    "id": 2853,
+    "email": "michal.kowalczykiewicz@cs.uni.wroc.pl"
+  },
+  "109": {
+    "last_name": "Kowalski",
+    "first_name": "Jakub",
+    "id": 1327,
+    "email": "jko@cs.uni.wroc.pl"
+  },
+  "600": {
+    "last_name": "Kozica",
+    "first_name": "Piotr",
+    "id": 3633,
+    "email": "paro.wroclaw@nokia.com"
+  },
+  "512": {
+    "last_name": "Kraska",
+    "first_name": "Artur",
+    "id": 2434,
+    "email": "artur.kraska@cs.uni.wroc.pl"
+  },
+  "524": {
+    "last_name": "Kraus",
+    "first_name": "Robert",
+    "id": 644,
+    "email": "rt.kraus+iinf@gmail.com"
+  },
+  "587": {
+    "last_name": "Krupski",
+    "first_name": "Miłosz",
+    "id": 3466,
+    "email": "milosz.krupski@uwr.edu.pl"
+  },
+  "597": {
+    "last_name": "Kubisz",
+    "first_name": "Ryszard",
+    "id": 3629,
+    "email": "ryszard.kubisz@uwr.edu.pl"
+  },
+  "621": {
+    "last_name": "Kucharski",
+    "first_name": "Maciej",
+    "id": 2255,
+    "email": "279168@uwr.edu.pl"
+  },
+  "483": {
+    "last_name": "Kunysz",
+    "first_name": "Adam",
+    "id": 2093,
+    "email": "aku@cs.uni.wroc.pl"
+  },
+  "583": {
+    "last_name": "Kupczyk",
+    "first_name": "Radosław",
+    "id": 3462,
+    "email": "radoslaw.kupczyk@uwr.edu.pl"
+  },
+  "481": {
+    "last_name": "Laskoś-Grabowski",
+    "first_name": "Paweł",
+    "id": 2091,
+    "email": "plg@cs.uni.wroc.pl"
+  },
+  "612": {
+    "last_name": "Laszczyński",
+    "first_name": "Szymon",
+    "id": 3834,
+    "email": "szymonlaszczynski@gmail.com"
+  },
+  "581": {
+    "last_name": "Latosiński",
+    "first_name": "Grzegorz",
+    "id": 3460,
+    "email": "grzegorz.latosinski@cs.uni.wroc.pl"
+  },
+  "550": {
+    "last_name": "Leśniewski",
+    "first_name": "Wojciech",
+    "id": 3051,
+    "email": "wojles@cs.uni.wroc.pl"
+  },
+  "535": {
+    "last_name": "Lisowski",
+    "first_name": "Piotr",
+    "id": 2616,
+    "email": "piotrek.lisowski11@gmail.com"
+  },
+  "30": {
+    "last_name": "Loryś",
+    "first_name": "Krzysztof",
+    "id": 31,
+    "email": "lorysster@gmail.com"
+  },
+  "559": {
+    "last_name": "Łukasiewicz",
+    "first_name": "Aleksander",
+    "id": 2058,
+    "email": "aleksander.lukasiewicz@cs.uni.wroc.pl"
+  },
+  "8": {
+    "last_name": "Łukaszewski",
+    "first_name": "Andrzej",
+    "id": 9,
+    "email": "Andrzej.Lukaszewski@cs.uni.wroc.pl"
+  },
+  "603": {
+    "last_name": "Łukomski",
+    "first_name": "Piotr",
+    "id": 3637,
+    "email": "piotr.lukomski@uwr.edu.pl"
+  },
+  "580": {
+    "last_name": "Magner",
+    "first_name": "Elżbieta",
+    "id": 3459,
+    "email": "elzbieta.magner@uwr.edu.pl"
+  },
+  "519": {
+    "last_name": "Marcinkowski",
+    "first_name": "Jan",
+    "id": 2639,
+    "email": "jan.marcinkowski@cs.uni.wroc.pl"
+  },
+  "31": {
+    "last_name": "Marcinkowski",
+    "first_name": "Jerzy",
+    "id": 32,
+    "email": "jma@cs.uni.wroc.pl"
+  },
+  "522": {
+    "last_name": "Markiewicz",
+    "first_name": "Mateusz",
+    "id": 791,
+    "email": "mateusz@markiewicz.tel"
+  },
+  "92": {
+    "last_name": "Materzok",
+    "first_name": "Marek",
+    "id": 93,
+    "email": "marek.materzok@cs.uni.wroc.pl"
+  },
+  "594": {
+    "last_name": "Matuszewski",
+    "first_name": "Kamil",
+    "id": 2167,
+    "email": "kamil.matuszewski@cs.uni.wroc.pl"
+  },
+  "602": {
+    "last_name": "Meir",
+    "first_name": "Nadav",
+    "id": 3636,
+    "email": "nadav.meir@uwr.edu.pl"
+  },
+  "58": {
+    "last_name": "Michaliszyn",
+    "first_name": "Jakub",
+    "id": 59,
+    "email": "jakub.michaliszyn@uwr.edu.pl"
+  },
+  "604": {
+    "last_name": "Michielini",
+    "first_name": "Vincent",
+    "id": 3638,
+    "email": "vincent.michielini@cs.uni.wroc.pl"
+  },
+  "588": {
+    "last_name": "Miernik",
+    "first_name": "Radosław",
+    "id": 3467,
+    "email": "radoslaw.miernik@cs.uni.wroc.pl"
+  },
+  "34": {
+    "last_name": "Młotkowski",
+    "first_name": "Marcin",
+    "id": 35,
+    "email": "Marcin.Mlotkowski@ii.uni.wroc.pl"
+  },
+  "35": {
+    "last_name": "Nowak",
+    "first_name": "Rafał",
+    "id": 36,
+    "email": "rafal.nowak@cs.uni.wroc.pl"
+  },
+  "500": {
+    "last_name": "Nowicki",
+    "first_name": "Krzysztof",
+    "id": 2411,
+    "email": "krz.nowicki@gmail.com"
+  },
+  "477": {
+    "last_name": "Olender",
+    "first_name": "Grzegorz",
+    "id": 2084,
+    "email": "grzegorz.olender@gmail.com"
+  },
+  "525": {
+    "last_name": "Ostropolski-Nalewaja",
+    "first_name": "Piotr",
+    "id": 1782,
+    "email": "postropolski@cs.uni.wroc.pl"
+  },
+  "55": {
+    "last_name": "Otop",
+    "first_name": "Jan",
+    "id": 56,
+    "email": "jotop@cs.uni.wroc.pl"
+  },
+  "36": {
+    "last_name": "Pacholski",
+    "first_name": "Leszek",
+    "id": 37,
+    "email": "pacholsk@cs.uni.wroc.pl"
+  },
+  "465": {
+    "last_name": "Pacut",
+    "first_name": "Maciej",
+    "id": 1915,
+    "email": "pct@cs.uni.wroc.pl"
+  },
+  "601": {
+    "last_name": "Paleczna-Sareńcza",
+    "first_name": "Magdalena",
+    "id": 3635,
+    "email": "magdalena.paleczna@uwr.edu.pl"
+  },
+  "37": {
+    "last_name": "Paluch",
+    "first_name": "Katarzyna",
+    "id": 38,
+    "email": "abraka@cs.uni.wroc.pl"
+  },
+  "65": {
+    "last_name": "Paluszyński",
+    "first_name": "Maciej",
+    "id": 66,
+    "email": "mpal@math.uni.wroc.pl"
+  },
+  "460": {
+    "last_name": "Piecuch",
+    "first_name": "Krzysztof",
+    "id": 1910,
+    "email": "krzysztof.piecuch@gmail.com"
+  },
+  "39": {
+    "last_name": "Piotrów",
+    "first_name": "Marek",
+    "id": 40,
+    "email": "Marek.Piotrow@uwr.edu.pl"
+  },
+  "515": {
+    "last_name": "Piróg",
+    "first_name": "Maciej",
+    "id": 2628,
+    "email": "mpirog@cs.uni.wroc.pl"
+  },
+  "40": {
+    "last_name": "Piwowar",
+    "first_name": "Łukasz",
+    "id": 41,
+    "email": "lpi@cs.uni.wroc.pl"
+  },
+  "41": {
+    "last_name": "Płoski",
+    "first_name": "Zdzisław",
+    "id": 42,
+    "email": "zpl@cs.uni.wroc.pl"
+  },
+  "534": {
+    "last_name": "Pokorski",
+    "first_name": "Karol",
+    "id": 952,
+    "email": "karol@pokorski.xyz"
+  },
+  "474": {
+    "last_name": "Polesiuk",
+    "first_name": "Piotr",
+    "id": 2079,
+    "email": "ppolesiuk@cs.uni.wroc.pl"
+  },
+  "547": {
+    "last_name": "Pyzik",
+    "first_name": "Mateusz",
+    "id": 3046,
+    "email": "mateusz.pyzik@cs.uni.wroc.pl"
+  },
+  "53": {
+    "last_name": "Rajba",
+    "first_name": "Paweł",
+    "id": 54,
+    "email": "pawel@cs.uni.wroc.pl"
+  },
+  "42": {
+    "last_name": "Rychlikowski",
+    "first_name": "Paweł",
+    "id": 43,
+    "email": "prych@ii.uni.wroc.pl"
+  },
+  "43": {
+    "last_name": "Rzechonek",
+    "first_name": "Paweł",
+    "id": 44,
+    "email": "prz@cs.uni.wroc.pl"
+  },
+  "509": {
+    "last_name": "Schmidt",
+    "first_name": "Paweł",
+    "id": 2431,
+    "email": "Pawel.Schmidt@cs.uni.wroc.pl"
+  },
+  "579": {
+    "last_name": "Selinger",
+    "first_name": "Marcin",
+    "id": 3458,
+    "email": "marcin.selinger@uwr.edu.pl"
+  },
+  "595": {
+    "last_name": "Shoghi",
+    "first_name": "Mansooreh",
+    "id": 3612,
+    "email": "mansooreh.shoghi@cs.uni.wroc.pl"
+  },
+  "514": {
+    "last_name": "Sieczkowski",
+    "first_name": "Filip",
+    "id": 2597,
+    "email": "efes@cs.uni.wroc.pl"
+  },
+  "563": {
+    "last_name": "Słupiński",
+    "first_name": "Mikołaj",
+    "id": 2271,
+    "email": "mikolajslupinski@gmail.com"
+  },
+  "622": {
+    "last_name": "Smolik",
+    "first_name": "Bartosz",
+    "id": 3849,
+    "email": "bartosz.smolik@uwr.edu.pl"
+  },
+  "452": {
+    "last_name": "Smolińska",
+    "first_name": "Anna",
+    "id": 1352,
+    "email": "asm@cs.uni.wroc.pl"
+  },
+  "459": {
+    "last_name": "Sornat",
+    "first_name": "Krzysztof",
+    "id": 1909,
+    "email": "krzysztof.sornat@cs.uni.wroc.pl"
+  },
+  "3": {
+    "last_name": "Spławski",
+    "first_name": "Zdzisław",
+    "id": 4,
+    "email": "zs@cs.uni.wroc.pl"
+  },
+  "44": {
+    "last_name": "Stachowiak",
+    "first_name": "Grzegorz",
+    "id": 45,
+    "email": "Grzegorz.Stachowiak@ii.uni.wroc.pl"
+  },
+  "78": {
+    "last_name": "Stańczy",
+    "first_name": "Robert",
+    "id": 79,
+    "email": "Robert.Stanczy@math.uni.wroc.pl"
+  },
+  "582": {
+    "last_name": "Stróżyk",
+    "first_name": "Jarosław",
+    "id": 3461,
+    "email": "jaroslaw.strozyk@uwr.edu.pl"
+  },
+  "607": {
+    "last_name": "Struś",
+    "first_name": "Mirosław",
+    "id": 3787,
+    "email": "miroslaw.strus@uwr.edu.pl"
+  },
+  "561": {
+    "last_name": "Stypułkowski",
+    "first_name": "Michał",
+    "id": 3031,
+    "email": "michal.stypulkowski@cs.uni.wroc.pl"
+  },
+  "589": {
+    "last_name": "Sydor",
+    "first_name": "Sebastian",
+    "id": 3468,
+    "email": "sebastian.sydor@math.uni.wroc.pl"
+  },
+  "90": {
+    "last_name": "Szykuła",
+    "first_name": "Marek",
+    "id": 91,
+    "email": "msz@cs.uni.wroc.pl"
+  },
+  "592": {
+    "last_name": "Szymajda",
+    "first_name": "Piotr",
+    "id": 3482,
+    "email": "piotr.szymajda@fibertide.com"
+  },
+  "590": {
+    "last_name": "Szymańska",
+    "first_name": "Magdalena",
+    "id": 3472,
+    "email": "magdalena.szymanska@uwr.edu.pl"
+  },
+  "567": {
+    "last_name": "Śliwiński",
+    "first_name": "Michał",
+    "id": 3404,
+    "email": "michal.sliwinski@math.uni.wroc.pl"
+  },
+  "86": {
+    "last_name": "Tabisz",
+    "first_name": "Krzysztof",
+    "id": 87,
+    "email": "tabisz@math.uni.wroc.pl"
+  },
+  "626": {
+    "last_name": "Tatarczuk",
+    "first_name": "Agnieszka",
+    "id": 2829,
+    "email": "300167@uwr.edu.pl"
+  },
+  "546": {
+    "last_name": "Uznański",
+    "first_name": "Przemysław",
+    "id": 1222,
+    "email": "puznanski@cs.uni.wroc.pl"
+  },
+  "122": {
+    "last_name": "Wasielewski",
+    "first_name": "Radosław",
+    "id": 1340,
+    "email": "radoslaw.wasielewski@uwr.edu.pl"
+  },
+  "537": {
+    "last_name": "Wasylkiewicz",
+    "first_name": "Mateusz",
+    "id": 2042,
+    "email": "matijas9@tlen.pl"
+  },
+  "48": {
+    "last_name": "Wieczorek",
+    "first_name": "Piotr",
+    "id": 49,
+    "email": "piotr.wieczorek@cs.uni.wroc.pl"
+  },
+  "49": {
+    "last_name": "Wierzbicki",
+    "first_name": "Tomasz",
+    "id": 50,
+    "email": "tomasz.wierzbicki@uwr.edu.pl"
+  },
+  "557": {
+    "last_name": "Wiśniewski",
+    "first_name": "Jakub",
+    "id": 3243,
+    "email": "jakub.wisniewski@uwr.edu.pl"
+  },
+  "5": {
+    "last_name": "Witkowski",
+    "first_name": "Piotr",
+    "id": 6,
+    "email": "pwit@cs.uni.wroc.pl"
+  },
+  "1": {
+    "last_name": "Włodarczak",
+    "first_name": "Marcin",
+    "id": 2,
+    "email": "ii@czk.mk"
+  },
+  "50": {
+    "last_name": "Wnuk-Lipiński",
+    "first_name": "Piotr",
+    "id": 51,
+    "email": "lipinski@ii.uni.wroc.pl"
+  },
+  "128": {
+    "last_name": "Wodzyńska",
+    "first_name": "Katarzyna",
+    "id": 1351,
+    "email": "kawodz@cs.uni.wroc.pl"
+  },
+  "52": {
+    "last_name": "Woźny",
+    "first_name": "Paweł",
+    "id": 53,
+    "email": "Pawel.Wozny@cs.uni.wroc.pl"
+  },
+  "610": {
+    "last_name": "Wyłupek",
+    "first_name": "Grzegorz",
+    "id": 3794,
+    "email": "grzegorz.wylupek@uwr.edu.pl"
+  },
+  "615": {
+    "last_name": "Yakimovich",
+    "first_name": "Artur",
+    "id": 3845,
+    "email": "artur.yakimovich@uwr.edu.pl"
+  },
+  "605": {
+    "last_name": "Zagórski",
+    "first_name": "Filip",
+    "id": 3639,
+    "email": "filip.zagorski@cs.uni.wroc.pl"
+  },
+  "616": {
+    "last_name": "Zakharov",
+    "first_name": "Alexander",
+    "id": 3846,
+    "email": "alexander.zakharov@uwr.edu.pl"
+  },
+  "7": {
+    "last_name": "Zychla",
+    "first_name": "Wiktor",
+    "id": 8,
+    "email": "wzychla@ii.uni.wroc.pl"
+  },
+  "609": {
+    "last_name": "Żuchowski",
+    "first_name": "Tomasz",
+    "id": 3789,
+    "email": "tomasz.zuchowski@uwr.edu.pl"
+  }
+}

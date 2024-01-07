@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8" />
+    <title>Details for employee</title>
+  </head>
+  <body>
+    <h1> {{ teacher.first_name }} {{teacher.last_name }} </h1>
+    {% if teacher_groups_list %}
+    <table>
+      <tr>
+	<th>
+	  Semester
+	</th>
+	<th>
+	  Subject
+	</th>
+	<th>
+	  Group type
+	</th>
+	<th>
+	  Date
+	</th>
+	<th>
+	  Limit
+	</th>
+	<th>
+	  Enrolled
+	</th>
+	<th>
+	  Queue
+	</th>
+      </tr>
+	{% for tg in teacher_groups_list %}
+	  <tr>
+	    <td>
+	      {% ifchanged %}
+		{{tg.subject.semester}}
+	      {% endifchanged %}
+	    </td>
+	    <td>
+	    <a href="{% url 'stakler:detail' tg.subject.id %}">{{ tg.subject.name }}</a>
+	    </td>
+	    <td>
+		{{ tg.name }}
+	    </td>
+	    <td>
+		{{ tg.date_time }}
+	    </td>
+	    <td>
+		{{ tg.limit }}
+	    </td>
+	    <td>
+		{{ tg.enrolled }}
+	    </td>
+	    <td>
+		{{ tg.queue }}
+	    </td>
+	  </tr>
+	{% endfor %}
+
+    </table>
+    {% else %}
+	<p>No groups for {{teacher.first_name}} {{teacher.last_name}} are available.</p>
+    {% endif %}
+  </body>
+</html>

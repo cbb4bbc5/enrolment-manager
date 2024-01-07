@@ -1,0 +1,30 @@
+version: '3'
+
+services:
+  database:
+    image: postgres:16.1
+    ports:
+      - 127.0.0.1:5432:5432
+    env_file:
+      - .env
+    networks:
+      - enrolment-net
+    volumes:
+      - ./database/:/var/lib/postgresql/data/
+  enrolment:
+    image: python:3.12
+    ports: 
+      - 0.0.0.0:29353:8080
+    env_file:
+      - .env
+    build: .
+    command: sh -c "python manage.py migrate && python manage.py runserver 0.0.0.0:8080"
+    depends_on:
+      - database
+    networks:
+      - enrolment-net
+    volumes:
+      - ./enrolment:/app/
+
+networks:
+  enrolment-net:

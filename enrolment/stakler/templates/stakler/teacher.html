@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8" />
+    <title>List of all employees</title>
+  </head>
+  <body>
+    {% if teachers %}
+	<ul>
+	{% for teacher in teachers %}
+	    <li><a href="{% url 'stakler:td' teacher.id %}">{{ teacher.first_name }} {{ teacher.last_name }}</a></li>
+	{% endfor %}
+	</ul>
+
+    {% else %}
+	<p>No teachers are available.</p>
+    {% endif %}
+  </body>
+</html>

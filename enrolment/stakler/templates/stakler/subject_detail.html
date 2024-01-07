@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8" />
+    <title>List of all groups</title>
+  </head>
+  <body>
+    <h1> {{ sub.name }} </h1>
+    {% if groups %}
+        <table>
+	  <tr>
+	    <th>
+	      Semester
+	    </th>
+	    <th>
+	      Group type
+	    </th>
+	    <th>
+	      Teacher
+	    </th>
+	    <th>
+	      Date
+	    </th>
+	    <th>
+	      Limit
+	    </th>
+	    <th>
+	      Enrolled
+	    </th>
+	    <th>
+	      Queue
+	    </th>
+	  </tr>
+	{% for group in groups %}
+	  <tr>
+	    <td>
+	      {% ifchanged %}
+		{{group.subject.semester}}
+	      {% endifchanged %}
+	    </td>
+	    <td>
+		{{ group.name }}
+	    </td>
+	    <td>
+		<!-- {{ group.teacher.first_name }} {{ group.teacher.last_name }} -->
+		<a href="{% url 'stakler:td' group.teacher.id %}">{{ group.teacher.first_name }} {{ group.teacher.last_name }}</a>
+	    </td>
+	    <td>
+		{{ group.date_time }}
+	    </td>
+	    <td>
+		{{ group.limit }}
+	    </td>
+	    <td>
+		{{ group.enrolled }}
+	    </td>
+	    <td>
+		{{ group.queue }}
+	    </td>
+	  </tr>
+	{% endfor %}
+        </table>
+
+    {% else %}
+	<p>The subject has no groups!</p>
+    {% endif %}
+  </body>
+</html>
