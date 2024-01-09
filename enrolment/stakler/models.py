@@ -8,7 +8,6 @@ class Teacher(models.Model):
 
     class Meta:
         app_label = 'stakler'
-    
 
 class Subject(models.Model):
     semester = models.CharField(max_length=100, default='')

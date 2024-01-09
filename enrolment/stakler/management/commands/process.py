@@ -1,9 +1,8 @@
-from django.core.management.base import BaseCommand, CommandError
+import json
 
-import sys, os, json
-from typing import Iterator
-
+from django.core.management.base import BaseCommand
 from stakler.models import Teacher
+
 
 # I tried to make it into a standalone script but every
 # way to do so that I found failed in way or another, mostly related
