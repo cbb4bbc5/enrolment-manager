@@ -1,8 +1,10 @@
-from bs4 import BeautifulSoup as bs
-from django.core.management.base import BaseCommand, CommandError
 import os
-from stakler.models import Subject, Group, Teacher
 from typing import Iterator
+
+from bs4 import BeautifulSoup as bs
+from django.core.management.base import BaseCommand
+from stakler.models import Group, Subject, Teacher
+
 
 class Command(BaseCommand):
     def add_arguments(self, parser):
@@ -40,7 +42,7 @@ class Command(BaseCommand):
         but I still think a part of this should be useful.
         """
         clean_table_data = []
-        full_names = {'(wyk.)': 'lecture', '(ćw.)': 'exercise', '(prac.)': 'lab', 
+        full_names = {'(wyk.)': 'lecture', '(ćw.)': 'exercise', '(prac.)': 'lab',
                 '(ćw-prac.)' : 'lab-exercise', '(rep.)' : 'rep', '(sem.)' : 'sem'}
         yes_or_no = {'Nie' : False, 'Tak' : True}
         # I have no idea what this loop was all about
@@ -125,7 +127,7 @@ class Command(BaseCommand):
         as some of needed information is stored (or should be) by my design in
         subjects.json for each and every semester
         """
-        for root, dirs, files in os.walk(path):
+        for root, _, files in os.walk(path):
             for file in files:
                 file_name: str = file.split('.')[0]
                 file_extension: str = file.split('.')[1]
@@ -150,7 +152,7 @@ class Command(BaseCommand):
 
         teach = Teacher.objects.get(pk=res1[1])
 
-        obj, created = Subject.objects.get_or_create(
+        obj, _ = Subject.objects.get_or_create(
             semester=semester,
             ects=res1[4],
             name=name,
@@ -181,8 +183,6 @@ class Command(BaseCommand):
 
 
     def handle(self, *args, **options):
-        # path='/app/stakler/semesters/summer/summer2023/subjects/algorytmy-i-struktury-danych-l-202223-letni/algorytmy-i-struktury-danych-l-202223-letni.html'
-        # path='/app/stakler/semesters/winter/winter2023/'
         path='/app/stakler/semesters/'
         for p in self._gen_files(path):
             self._full_info(p)

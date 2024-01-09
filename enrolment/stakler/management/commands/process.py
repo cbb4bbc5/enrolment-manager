@@ -32,7 +32,7 @@ class Command(BaseCommand):
         for teacher in teacher_info:
             first_name = teacher['first_name']
             last_name = teacher['last_name']
-            id = teacher['id']
-            Teacher.objects.get_or_create(id=id, first_name=first_name, last_name=last_name)
+            teacher_id = teacher['id']
+            Teacher.objects.get_or_create(id=teacher_id, first_name=first_name, last_name=last_name)
 
 
