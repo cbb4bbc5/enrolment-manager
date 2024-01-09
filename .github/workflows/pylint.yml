@@ -2,6 +2,9 @@ name: Pylint
 
 on: [push]
 
+env:
+  DJANGO_SETTINGS_MODULE: enrolment.settings
+
 jobs:
   build:
     runs-on: ubuntu-latest
