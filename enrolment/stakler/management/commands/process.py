@@ -22,8 +22,7 @@ class Command(BaseCommand):
         """
         path = '/app/stakler/teachers.json'
         # TODO: make it not hardcoded
-        # https://stackoverflow.com/questions/57472578/python-how-to-pass-command-line-arg-as-string-instead-of-tuple
-        with open(path, 'r') as teachers:
+        with open(path, 'r', encoding="utf-8") as teachers:
             #contents = subjects.read()
             json_data = json.load(teachers)
 

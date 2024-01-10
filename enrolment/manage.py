@@ -7,7 +7,7 @@ import sys
 def main():
     """Run administrative tasks."""
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'enrolment.settings')
-    #pylint: disable=wrong-import-position
+    #pylint: disable=import-outside-toplevel
     try:
         from django.core.management import execute_from_command_line
     except ImportError as exc:
@@ -17,7 +17,7 @@ def main():
             "forget to activate a virtual environment?"
         ) from exc
     execute_from_command_line(sys.argv)
-    #pylint: enable=wrong-import-position
+    #pylint: enable=import-outside-toplevel
 
 
 if __name__ == '__main__':
