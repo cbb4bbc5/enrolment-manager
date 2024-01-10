@@ -14,7 +14,7 @@ class Command(BaseCommand):
         """ Returns parsed data from html file containing overview of the subject page.
         So it is not meant for extracting list of enrolled and waiting students.
         """
-        with open(filename, 'r') as general:
+        with open(filename, 'r', encoding="utf-8") as general:
             site = bs(general, 'html.parser')
             general.close()
 
@@ -100,7 +100,7 @@ class Command(BaseCommand):
 
 
     def _extract_group_data(self, path: str):
-        with open(path, 'r') as f:
+        with open(path, 'r', encoding="utf-8") as f:
             site = bs(f, 'html.parser')
         result = {}
         """
@@ -132,7 +132,7 @@ class Command(BaseCommand):
                 file_name: str = file.split('.')[0]
                 file_extension: str = file.split('.')[1]
                 if not file_name.isdecimal() and file_extension == 'html':
-                    yield(os.path.join(root, file))
+                    yield os.path.join(root, file)
 
 
     def _full_info(self, path: str):
@@ -140,7 +140,7 @@ class Command(BaseCommand):
         # res1 represents the subject to add
         res2 = self._extract_group_data(path)
         # res2 contains groups this subject groups
-        with open(path) as fp:
+        with open(path, 'r', encoding="utf-8") as fp:
             s = bs(fp, 'html.parser')
             name = s.find('h1').contents[0].strip()
             semester = s.find('h1').contents[1].contents[0].strip()
@@ -158,7 +158,6 @@ class Command(BaseCommand):
             name=name,
             owner=teach,
         )
-            
         for keys, vals in res2.items():
             for val in vals:
                 times = ','.join(val[1])

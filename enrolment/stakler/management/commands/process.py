@@ -34,5 +34,3 @@ class Command(BaseCommand):
             last_name = teacher['last_name']
             teacher_id = teacher['id']
             Teacher.objects.get_or_create(id=teacher_id, first_name=first_name, last_name=last_name)
-
-
