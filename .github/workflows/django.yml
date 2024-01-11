@@ -40,5 +40,6 @@ jobs:
     needs: check
     if: needs.check.outputs.status == 'success'
     steps:
-      - run: |
+    - name: 'Run Django tests'
+      run: |
         python enrolment/manage.py test
