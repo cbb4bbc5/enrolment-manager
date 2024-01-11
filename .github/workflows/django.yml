@@ -25,9 +25,20 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install -r requirements.txt
-    - name: Check if tests are present
-      run: |
-        ! [ -f enrolment/stakler/tests.py ] && echo No tests available && exit 0
-    - name: Run Tests
-      run: |
+
+  check:
+    outputs:
+      status: ${{ steps.early.conclussion }}
+
+    steps:
+      - id: early
+        name: Early exit
+        run: |
+          [ -f enrolment/stakler/tests.py ]
+
+  work:
+    needs: check
+    if: needs.check.outputs.status == 'success'
+    steps:
+      - run: |
         python enrolment/manage.py test
