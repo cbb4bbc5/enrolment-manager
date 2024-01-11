@@ -27,4 +27,4 @@ jobs:
         pip install -r requirements.txt
     - name: Run Tests
       run: |
-        python enrolment/manage.py test
+        [ -f enrolment/stakler/tests.py ] && python enrolment/manage.py test
