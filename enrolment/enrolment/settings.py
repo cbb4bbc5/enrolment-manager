@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = '69ad7b7cddcfd25c3e49b097d02c4489403e46ad69ce45743b0bb5eed33dbced'
 AZURE_POSTGRESQL_CONNECTIONSTRING='dbname=stakler-database host=stakler-server.postgres.database.azure.com port=5432 sslmode=require user=qivsvlayfu password=QUH8Y305G3EI8YMK$'
-conn_str = os.environ['AZURE_POSTGRESQL_CONNECTIONSTRING']
+conn_str = AZURE_POSTGRESQL_CONNECTIONSTRING
 conn_str_params = {pair.split('=')[0]: pair.split('=')[1] for pair in conn_str.split(' ')}
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
