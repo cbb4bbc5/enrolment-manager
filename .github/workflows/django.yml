@@ -24,7 +24,7 @@ jobs:
     - name: Install Dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install -r requirements.txt
+        pip install -r enrolment/requirements.txt
     - name: Run Tests
       run: |
         { [ -f enrolment/stakler/tests.py ] && python enrolment/manage.py test; } || exit 0

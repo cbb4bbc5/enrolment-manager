@@ -24,8 +24,9 @@ jobs:
 
       - name: Create and start virtual environment
         run: |
-          python -m venv enrolment/venv
-          source enrolment/venv/bin/activate
+          cd enrolment
+          python -m venv venv
+          source venv/bin/activate
       
       - name: Install dependencies
         run: pip install -r requirements.txt
