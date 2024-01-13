@@ -21,8 +21,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-f5ginx68o@8aepnmo=1g$e3f+@!r(+mourv!5o=629h*7_=c!&'
-
+SECRET_KEY = '69ad7b7cddcfd25c3e49b097d02c4489403e46ad69ce45743b0bb5eed33dbced'
+AZURE_POSTGRESQL_CONNECTIONSTRING='dbname=stakler-database host=stakler-server.postgres.database.azure.com port=5432 sslmode=require user=qivsvlayfu password=QUH8Y305G3EI8YMK$'
+conn_str = os.environ['AZURE_POSTGRESQL_CONNECTIONSTRING']
+conn_str_params = {pair.split('=')[0]: pair.split('=')[1] for pair in conn_str.split(' ')}
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
@@ -73,13 +75,24 @@ WSGI_APPLICATION = 'enrolment.wsgi.application'
 
 
 # HOST is the name of the database service specified in compose.yaml
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': os.environ.get('DBNAME'),
+#         'USER': os.environ.get('DBUSER'),
+#         'PASSWORD': os.environ.get('DBPASS'),
+#         'HOST': os.environ.get('DBHOST'),
+#         'PORT': 5432,
+#     }
+# }
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': os.environ.get('DBNAME'),
-        'USER': os.environ.get('DBUSER'),
-        'PASSWORD': os.environ.get('DBPASS'),
-        'HOST': os.environ.get('DBHOST'),
+        'NAME': conn_str_params['dbname'],
+        'HOST': conn_str_params['host'],
+        'USER': conn_str_params['user'],
+        'PASSWORD': conn_str_params['password'],
         'PORT': 5432,
     }
 }
