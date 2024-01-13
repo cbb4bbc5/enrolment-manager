@@ -41,8 +41,8 @@ jobs:
         with:
           name: python-app
           path: |
-            enrolment/release.zip
-            !enrolment/venv/
+            release.zip
+            !venv/
 
   deploy:
     runs-on: ubuntu-latest
