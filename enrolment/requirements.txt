@@ -1,3 +1,5 @@
 psycopg
 Django
 beautifulsoup4
+azure-identity
+azure-keyvault-secrets
