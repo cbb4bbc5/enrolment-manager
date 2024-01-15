@@ -7,11 +7,18 @@ env:
   AZURE_POSTGRESQL_CONNECTIONSTRING: ${{ secrets.AZ_PG_CONNSTR }}
 
 jobs:
-  build:
+  test_package:
     runs-on: ubuntu-latest
     strategy:
+      fail-fast: false
       matrix:
         python-version: ["3.12"]
+    services:
+      postgres:
+        image: postgres:16
+        ports:
+        - 5432:5432
+        options: --health-cmd pg_isready --health-interval 10s --health-timeout 5s --health-retries 5
     steps:
     - uses: actions/checkout@v3
     - name: Set up Python ${{ matrix.python-version }}
@@ -24,6 +31,14 @@ jobs:
         pip install pylint
         pip install -r enrolment/requirements.txt
         pip install pylint-django
-    - name: Analysing the code with pylint
+    - name: Analyze code with pylint
       run: |
         pylint --load-plugins pylint_django $(git ls-files '*.py')
+    - name: Run Django tests
+      run: |
+        cd enrolment
+        python manage.py migrate
+        python manage.py test stakler &&
+        python manage.py runserver &
+      env:
+        SECRET_KEY: django-insecure-key-${{ github.run_id }}-${{ github.run_attempt }}
