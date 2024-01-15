@@ -4,6 +4,7 @@ on: [push]
 
 env:
   DJANGO_SETTINGS_MODULE: enrolment.settings
+  AZURE_POSTGRESQL_CONNECTIONSTRING: ${{ secrets.AZ_PG_CONNSTR }}
 
 jobs:
   build:
