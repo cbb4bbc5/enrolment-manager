@@ -30,7 +30,7 @@ try:
 #pylint: enable=import-error
 
     keyvault_url = os.environ.get('KEYVAULT_URL')
-    credential = DefaultAzureCredential
+    credential = DefaultAzureCredential()
     secret_client = SecretClient(vault_url=keyvault_url, credential=credential)
 
     conn_str = secret_client.get_secret('PGConnStr').value
