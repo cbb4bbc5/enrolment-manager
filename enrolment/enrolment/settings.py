@@ -21,8 +21,24 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.environ.get('SECRET_KEY')
-conn_str = os.environ.get('AZURE_POSTGRESQL_CONNECTIONSTRING')
+try:
+#pylint: disable=import-outside-toplevel
+#pylint: disable=import-error
+    from azure.identity import DefaultAzureCredential
+    from azure.keyvault.secrets import SecretClient
+#pylint: enable=import-outside-toplevel
+#pylint: enable=import-error
+
+    keyvault_url = os.environ.get('KEYVAULT_URL')
+    credential = DefaultAzureCredential
+    secret_client = SecretClient(vault_url=keyvault_url, credential=credential)
+
+    conn_str = secret_client.get_secret('PGConnStr').value
+    SECRET_KEY = secret_client.get_secret('SecretKey').value
+
+except:
+    SECRET_KEY = os.environ.get('SECRET_KEY')
+    conn_str = os.environ.get('AZURE_POSTGRESQL_CONNECTIONSTRING')
 conn_str_params = {pair.split('=')[0]: pair.split('=')[1] for pair in conn_str.split(' ')}
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
