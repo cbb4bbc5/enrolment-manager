@@ -24,13 +24,13 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 try:
 #pylint: disable=import-outside-toplevel
 #pylint: disable=import-error
-    from azure.identity import DefaultAzureCredential
+    from azure.identity import ManagedIdentityCredential
     from azure.keyvault.secrets import SecretClient
 #pylint: enable=import-outside-toplevel
 #pylint: enable=import-error
 
     keyvault_url = os.environ.get('KEYVAULT_URL')
-    credential = DefaultAzureCredential()
+    credential = ManagedIdentityCredential()
     secret_client = SecretClient(vault_url=keyvault_url, credential=credential)
 
     conn_str = secret_client.get_secret('PGConnStr').value
